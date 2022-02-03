@@ -1,0 +1,29 @@
+<!--
+
+ Author: Shane Frantz
+
+ Class:  Software Engineering
+
+ Project: Sprint 2 / Dice Roller
+
+ Description: This is the HTML for my Dice Roller application (to be submitted with Lab #2)
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8"/>
+        <script type="text/javascript" src="DiceRoller.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="rollDice()">
+        <h1>Dice Roller</h1>
+        <p>by Shane Frantz</p>
+        <br></br>
+        <button type="button" id="rollButton" onclick="rollDice();" autofocus>Roll Dice</button>
+        <h2 id="diceText"></h2>
+        <br></br>
+        <h3>Instructions:</h3>
+        <p>Click the Roll Dice button or the enter key to roll the dice! Can you get a Yahtzee?</p>
+    </body>
+    <img src="yahtzee.jpg">
+</html>
